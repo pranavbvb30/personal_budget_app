@@ -7,7 +7,7 @@
     "start": "node api.js",
     "dev": "nodemon api.js"
   },
-  "author": "karthik",
+  "author": "Naga Pranav Gogineni",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
