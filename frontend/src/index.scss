@@ -1,0 +1,65 @@
+/* Reset and Normalize */
+/* ... (Previous styles remain unchanged) */
+
+/* Custom Styles */
+body {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif; /* Change the font family as needed */
+  background-color: #f2f2f2; /* Change the background color */
+}
+
+/* Menu Styles */
+div.menu {
+  background-color: #333; /* Change the menu background color */
+  height: 60px; /* Adjust the menu height */
+  padding: 0 40px;
+}
+
+ul li a {
+  line-height: 60px; /* Adjust the menu item line height */
+  font-size: 1.6em; /* Adjust the menu item font size */
+}
+
+ul li a:hover {
+  background-color: #555; /* Change the menu item hover background color */
+}
+
+/* Hero Section Styles */
+div.hero {
+  height: 100vh; /* Adjust the hero section height */
+  background-color: #82fcbf; /* Change the hero section background color */
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff; /* Change the hero heading color */
+  font-size: 4.8em; /* Adjust the hero heading font size */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ebff7c;
+  font-size: 2em; /* Adjust the hero subheading font size */
+}
+
+/* Center all content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Media Query */
+@media screen and (min-width: 768px) {
+  .container .div.text-box {
+    margin: 20px;
+  }
+}
